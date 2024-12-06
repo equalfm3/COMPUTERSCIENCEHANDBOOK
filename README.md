@@ -35,12 +35,12 @@ Status Key:
 
 | Section | Subsection | Topic | Status | Review |
 |---------|------------|-------|--------|--------|
-| 1. Mathematics Foundations | Discrete Mathematics | [Logic and Proofs](./01-mathematics-foundations/discrete-mathematics/logic-and-proofs.ipynb) | ⏳ |⏳ |
-| | | [Set Theory](./01-mathematics-foundations/discrete-mathematics/set-theory.ipynb) | ⏳ |⏳ |
-| | | [Number Theory](./01-mathematics-foundations/discrete-mathematics/number-theory.ipynb) | ⏳ |⏳ |
+| 1. Mathematics Foundations | Discrete Mathematics | [Logic and Proofs](./01-mathematics-foundations/discrete-mathematics/logic-and-proofs.ipynb) | ✅ |⏳ |
+| | | [Set Theory](./01-mathematics-foundations/discrete-mathematics/set-theory.ipynb) | ✅ |⏳ |
+| | | [Number Theory](./01-mathematics-foundations/discrete-mathematics/number-theory.ipynb) | ✅ |⏳ |
 | | | [Combinatorics](./01-mathematics-foundations/discrete-mathematics/combinatorics.ipynb) | ⏳ |⏳ |
-| | | [Probability](./01-mathematics-foundations/discrete-mathematics/probability.ipynb) | ⏳ |⏳ |
-| | | [Graph Theory](./01-mathematics-foundations/discrete-mathematics/graph-theory.ipynb) | ⏳ |⏳ |
+| | | [Probability](./01-mathematics-foundations/discrete-mathematics/probability.ipynb) | ✅ |⏳ |
+| | | [Graph Theory](./01-mathematics-foundations/discrete-mathematics/graph-theory.ipynb) | ✅ |⏳ |
 | | Linear Algebra | [Vectors and Matrices](./01-mathematics-foundations/linear-algebra/vectors-matrices.ipynb) | ⏳ |⏳ |
 | | | [Linear Transformations](./01-mathematics-foundations/linear-algebra/linear-transformations.ipynb) | ⏳ |⏳ |
 | | | [Eigenvalues](./01-mathematics-foundations/linear-algebra/eigenvalues.ipynb) | ⏳ |⏳ |
