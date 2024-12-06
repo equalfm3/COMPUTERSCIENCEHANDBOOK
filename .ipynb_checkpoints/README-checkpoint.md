@@ -17,6 +17,8 @@ Instead, this is a **structured knowledge base** that serves multiple purposes:
 4. **Personal Documentation**: A way to document both theoretical knowledge and practical experiences
 5. **Learning Aid**: Supporting material for continuous learning and review
 
+This project is a work in progress. Check the [Writing Progress](./WRITING_PROGRESS.md) readme for more details on the current state of the handbook.
+
 ## How to Use This Guide
 
 - Use it as a companion to your studies and work
@@ -306,5 +308,5 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 **Note**: While this handbook strives to be comprehensive, technology evolves rapidly. Always verify information and consult multiple sources for critical applications.
 
-Last Updated: 05/12/2024
+Last Updated: 06/12/2024
 Version: 1.0.0

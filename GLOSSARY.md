@@ -133,3 +133,5 @@
 ---
 
 *Note: This glossary is continuously updated as new terms are added to the handbook.*
+
+Last updated: 06/12/2024

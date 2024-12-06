@@ -1,17 +1,28 @@
 #!/bin/bash
 
-# Create root level files
-touch README.md CONTRIBUTING.md GLOSSARY.md
-
-# Function to create directory and md files
+# Function to create directory and ipynb files
 create_structure() {
     local dir=$1
     local files=$2
-    mkdir -p "$dir"
+    
+    # Create directory if it doesn't exist
+    [ ! -d "$dir" ] && mkdir -p "$dir"
+    
+    # Create ipynb files if they don't exist
     for file in $files; do
-        touch "$dir/$file.md"
+        local ipynb_file="$dir/$file.ipynb"
+        
+        # Create .ipynb file if it doesn't exist
+        [ ! -f "$ipynb_file" ] && touch "$ipynb_file"
     done
 }
+
+# Create root level ipynb files if they don't exist
+for file in README CONTRIBUTING GLOSSARY WRITING_PROGRESS; do
+    local ipynb_file="$file.ipynb"
+    
+    [ ! -f "$ipynb_file" ] && touch "$ipynb_file"
+done
 
 # 01-mathematics-foundations
 create_structure "01-mathematics-foundations/discrete-mathematics" "logic-and-proofs set-theory number-theory combinatorics probability graph-theory"
@@ -40,6 +51,11 @@ create_structure "04-networking/modern-networking" "sdn network-virtualization c
 create_structure "05-data-structures-algorithms/probabilistic" "bloom-filters skip-lists hyperloglog"
 create_structure "05-data-structures-algorithms/distributed" "distributed-hash-tables consensus-algorithms gossip-protocols"
 create_structure "05-data-structures-algorithms/streaming" "reservoir-sampling count-min-sketch streaming-algorithms"
+create_structure "05-data-structures-algorithms/basic-data-structures" "arrays linked-lists stacks queues hash-tables"
+create_structure "05-data-structures-algorithms/advanced-data-structures" "trees graphs heaps tries disjoint-sets"
+create_structure "05-data-structures-algorithms/algorithms" "sorting searching dynamic-programming greedy-algorithms backtracking divide-and-conquer"
+create_structure "05-data-structures-algorithms/algorithm-analysis" "time-complexity space-complexity big-o-notation"
+create_structure "05-data-structures-algorithms/common-interview-topics" "string-manipulation bit-manipulation matrix-operations recursion two-pointers sliding-window"
 
 # 06-databases
 create_structure "06-databases/advanced-concepts" "mvcc acid cap-theorem consistency-models"
