@@ -142,10 +142,10 @@ Status Key:
 | | | [Vector](./06-databases/modern-databases/vector.ipynb) | ⏳ |⏳ |
 | | | [Blockchain](./06-databases/modern-databases/blockchain.ipynb) | ⏳ |⏳ |
 | | | [NewSQL](./06-databases/modern-databases/newSQL.ipynb) | ⏳ |⏳ |
-| 7. System Design | Scalability Patterns | [Horizontal Scaling](./07-system-design/scalability-patterns/horizontal-scaling.ipynb) | ⏳ |⏳ |
-| | | [Vertical Scaling](./07-system-design/scalability-patterns/vertical-scaling.ipynb) | ⏳ |⏳ |
-| | | [Database Sharding](./07-system-design/scalability-patterns/database-sharding.ipynb) | ⏳ |⏳ |
-| | | [Load Balancing](./07-system-design/scalability-patterns/load-balancing.ipynb) | ⏳ |⏳ |
+| 7. System Design | Scalability Patterns | [Horizontal Scaling](./07-system-design/scalability-patterns/horizontal-scaling.ipynb) | ✅ |⏳ |
+| | | [Vertical Scaling](./07-system-design/scalability-patterns/vertical-scaling.ipynb) | ✅ |⏳ |
+| | | [Database Sharding](./07-system-design/scalability-patterns/database-sharding.ipynb) | ✅ |⏳ |
+| | | [Load Balancing](./07-system-design/scalability-patterns/load-balancing.ipynb) | ✅ |⏳ |
 | | Reliability Patterns | [Circuit Breaker](./07-system-design/reliability-patterns/circuit-breaker.ipynb) | ⏳ |⏳ |
 | | | [Bulkhead](./07-system-design/reliability-patterns/bulkhead.ipynb) | ⏳ |⏳ |
 | | | [Retry](./07-system-design/reliability-patterns/retry.ipynb) | ⏳ |⏳ |
